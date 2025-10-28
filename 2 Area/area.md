@@ -5,10 +5,11 @@ tags:
   - "#🗺️MOC"
 ---
 ```dataview
-TABLE
-file.folder AS "Path",
-file.ctime AS "Created",
-file.mtime AS "Modified",
-file.etags AS "Tags"
-FROM "2 Area"
+TABLE WITHOUT ID 
+	file.link AS MOC,
+	file.ctime AS "Created",
+	file.mtime AS "Modified"
+WHERE startswith(file.folder, this.file.folder + "/")
+AND file.name = split(regexreplace(file.folder, "^" + this.file.folder + "/", ""), "/")[0]
+SORT file.name ASC
 ```

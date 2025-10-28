@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#➕CPP  ",
+      "color": {
+        "a": 1,
+        "rgb": 65471
+      }
+    },
+    {
+      "query": "tag:#🦀Rust  ",
+      "color": {
+        "a": 1,
+        "rgb": 16741120
+      }
+    },
+    {
+      "query": "tag:#🌱TODO/📖Theory  ",
+      "color": {
+        "a": 1,
+        "rgb": 9175295
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.9999999999999811,
+  "close": false
+}

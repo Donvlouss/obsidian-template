@@ -1,0 +1,19 @@
+{
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "absolute",
+  "showUnsupportedFiles": true,
+  "promptDelete": false,
+  "readableLineLength": false,
+  "showInlineTitle": false,
+  "userIgnoreFilters": [
+    "Template/",
+    "plugins/"
+  ],
+  "defaultViewMode": "preview",
+  "strictLineBreaks": false,
+  "newFileLocation": "current",
+  "foldHeading": true,
+  "foldIndent": true,
+  "showIndentGuide": true
+}

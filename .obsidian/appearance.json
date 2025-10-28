@@ -1,0 +1,9 @@
+{
+  "accentColor": "#f41576",
+  "cssTheme": "Blue Topaz",
+  "enabledCssSnippets": [
+    "custom_callouts",
+    "custom-admonitions.fcbb7f"
+  ],
+  "nativeMenus": false
+}

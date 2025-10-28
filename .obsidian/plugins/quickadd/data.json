@@ -1,0 +1,279 @@
+{
+  "choices": [
+    {
+      "id": "43d05cb9-fb73-410d-bb0e-827ba92d8918",
+      "name": "Template",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "74aeaa6b-d89a-4f0f-b117-2c2ce6cc01a4",
+          "name": "Basic",
+          "type": "Template",
+          "command": false,
+          "templatePath": "Template/Basic.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": false,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFile": true,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsMode": "Append to the bottom of the file",
+          "setFileExistsBehavior": true
+        },
+        {
+          "id": "981e65b4-1420-492d-acc4-8a1ebabdaf71",
+          "name": "Problem",
+          "type": "Template",
+          "command": false,
+          "templatePath": "Template/Problem.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": false,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFile": true,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsMode": "Append to the bottom of the file",
+          "setFileExistsBehavior": true
+        },
+        {
+          "id": "31fa3b1c-cc54-4793-8a34-f115dcde2a36",
+          "name": "moc",
+          "type": "Template",
+          "command": false,
+          "templatePath": "Template/MOC.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": false,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFile": true,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsMode": "Append to the bottom of the file",
+          "setFileExistsBehavior": true
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "41372cc2-e935-4f4e-8730-1f8ad2d70551",
+      "name": "Git",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "7d18921a-6a46-40b9-bf56-80197a04f498",
+          "name": "commit",
+          "type": "Macro",
+          "command": false,
+          "runOnStartup": false,
+          "macro": {
+            "name": "commit",
+            "id": "3c1ae353-9b32-4a2f-b8d9-6913cbdb5c3c",
+            "commands": [
+              {
+                "name": "Git: Commit all changes with specific message",
+                "type": "Obsidian",
+                "id": "86bb054b-4964-4eb7-9ccf-519ed14a79f2",
+                "commandId": "obsidian-git:commit-specified-message"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ef022e45-d6a9-43d1-9e54-2684ddc66456",
+          "name": "push",
+          "type": "Macro",
+          "command": false,
+          "runOnStartup": false,
+          "macro": {
+            "name": "push",
+            "id": "3ea97105-db11-44fd-b197-ec4a4fc338ad",
+            "commands": [
+              {
+                "name": "Git: Push",
+                "type": "Obsidian",
+                "id": "5bc76154-2af2-469f-a637-7a4192fd820c",
+                "commandId": "obsidian-git:push2"
+              }
+            ]
+          }
+        },
+        {
+          "id": "c00b06de-c7b4-44b2-bc97-f91b86468de0",
+          "name": "pull",
+          "type": "Macro",
+          "command": false,
+          "runOnStartup": false,
+          "macro": {
+            "name": "pull",
+            "id": "de286aa8-b092-46d8-ae0c-dd2f4ef63f87",
+            "commands": [
+              {
+                "name": "Git: Pull",
+                "type": "Obsidian",
+                "id": "9df805b3-2e8c-42ff-899c-7abcf72987de",
+                "commandId": "obsidian-git:pull"
+              }
+            ]
+          }
+        },
+        {
+          "id": "6eb87f2d-d0a1-4eea-a29e-8d09784252a4",
+          "name": "commit sync",
+          "type": "Macro",
+          "command": false,
+          "runOnStartup": false,
+          "macro": {
+            "name": "commit sync",
+            "id": "403c70ff-2526-483d-961d-f79abf41f86f",
+            "commands": [
+              {
+                "name": "Git: Commit-and-sync with specific message",
+                "type": "Obsidian",
+                "id": "1ea22070-e30a-4179-a779-5a96eda1c1f0",
+                "commandId": "obsidian-git:commit-push-specified-message"
+              }
+            ]
+          }
+        }
+      ],
+      "collapsed": false
+    }
+  ],
+  "inputPrompt": "multi-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": true,
+  "version": "2.5.0",
+  "globalVariables": {},
+  "onePageInputEnabled": false,
+  "disableOnlineFeatures": true,
+  "enableRibbonIcon": true,
+  "showCaptureNotification": true,
+  "enableTemplatePropertyTypes": false,
+  "ai": {
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true,
+    "providers": [
+      {
+        "name": "OpenAI",
+        "endpoint": "https://api.openai.com/v1",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "text-davinci-003",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo-16k",
+            "maxTokens": 16384
+          },
+          {
+            "name": "gpt-3.5-turbo-1106",
+            "maxTokens": 16385
+          },
+          {
+            "name": "gpt-4",
+            "maxTokens": 8192
+          },
+          {
+            "name": "gpt-4-32k",
+            "maxTokens": 32768
+          },
+          {
+            "name": "gpt-4-1106-preview",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4-turbo",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o",
+            "maxTokens": 128000
+          },
+          {
+            "name": "gpt-4o-mini",
+            "maxTokens": 128000
+          }
+        ],
+        "autoSyncModels": false
+      },
+      {
+        "name": "Gemini",
+        "endpoint": "https://generativelanguage.googleapis.com",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "gemini-1.5-pro",
+            "maxTokens": 1000000
+          },
+          {
+            "name": "gemini-1.5-flash",
+            "maxTokens": 1000000
+          },
+          {
+            "name": "gemini-1.5-flash-8b",
+            "maxTokens": 1000000
+          }
+        ],
+        "autoSyncModels": false
+      }
+    ]
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true,
+    "addDefaultAIProviders": true,
+    "removeMacroIndirection": true,
+    "migrateFileOpeningSettings": true
+  }
+}
